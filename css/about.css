@@ -1,0 +1,12 @@
+.about__wrapper {
+    background-color: var(--second-brand-color);
+}
+@media screen and (min-width: 1024px)  {
+    .about {
+        text-align: right;
+    }
+    .about .text {
+        margin-right: 0;
+        max-width: 70rem;
+    }
+}

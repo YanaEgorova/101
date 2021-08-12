@@ -1,0 +1,22 @@
+.info__wrapper {
+    background-color: var(--second-brand-color);
+}
+.info {
+    padding: 5rem 0;
+}
+.info .text {
+    margin-bottom: 10rem;
+}
+
+@media screen and (min-width: 1024px)  {
+    .info {
+        padding: 10rem 0;
+        text-align: left;
+    }
+    .info .text {
+        max-width: 70rem;
+        margin-left: 0;
+    }
+}
+
+
